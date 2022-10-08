@@ -1,0 +1,30 @@
+.socials {
+  margin-top: 0;
+  padding: 15px 5px;
+  height: 30px;
+  background-color: transparent;
+  border-radius: 0.5rem;
+  .socials__ul {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    .social__ul__li {
+      font-size: 1.1rem;
+      .social__ul__li__a {
+        color: #adb0b1;
+        text-decoration: none;
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .social__ul__li__a {
+    font-size: 0.9rem;
+  }
+}

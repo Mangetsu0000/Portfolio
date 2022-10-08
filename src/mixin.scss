@@ -1,0 +1,6 @@
+@function txt-color($color) {
+  @return var(--txt-#{$color});
+}
+@function bgc-color($color) {
+  @return var(--bgc-#{$color});
+}

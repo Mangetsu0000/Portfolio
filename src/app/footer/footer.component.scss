@@ -1,0 +1,18 @@
+@import "src/mixin.scss";
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  margin: 80px 0 40px 0;
+  color: txt-color(heading);
+}
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  height: 25px;
+  width: 25px;
+}

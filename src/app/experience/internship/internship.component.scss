@@ -1,0 +1,46 @@
+@import "src/mixin.scss";
+.internship {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 20px;
+  padding: 10px;
+  margin: 50px 0;
+  border-left: 3px solid #2b3031;
+  .internship__hl {
+    height: 2px;
+    width: 100%;
+    background-color: #2b3031;
+    transform: translate(-20px);
+  }
+  .internship__h1 {
+    font-size: 1.6rem;
+    line-height: 1.5em;
+    color: txt-color(heading);
+    font-weight: bold;
+  }
+  .internship__date {
+    margin-left: 2.8rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  .internship__p {
+    margin-left: 2.8rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+}
+@media (max-width: 768px) {
+  .internship {
+    .internship__h1 {
+      font-size: 1.3rem;
+    }
+
+    .internship__p {
+      font-size: 0.9rem;
+    }
+  }
+}
