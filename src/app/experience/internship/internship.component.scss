@@ -23,6 +23,7 @@
     font-weight: bold;
   }
   .internship__date {
+    color: txt-color(accent);
     margin-left: 2.8rem;
     font-size: 0.9rem;
     font-weight: bold;
@@ -36,9 +37,11 @@
 @media (max-width: 768px) {
   .internship {
     .internship__h1 {
-      font-size: 1.3rem;
+      font-size: 1.1rem;
     }
-
+    .internship__date {
+      font-size: 0.8rem;
+    }
     .internship__p {
       font-size: 0.9rem;
     }

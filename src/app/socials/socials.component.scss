@@ -1,3 +1,4 @@
+@import "src/mixin.scss";
 .socials {
   margin-top: 0;
   padding: 15px 5px;
@@ -17,7 +18,8 @@
         color: #adb0b1;
         text-decoration: none;
         &:hover {
-          color: #fff;
+          color: txt-color(accent);
+          transition: color 0.4s ease-in-out;
         }
       }
     }
@@ -25,6 +27,6 @@
 }
 @media (max-width: 768px) {
   .social__ul__li__a {
-    font-size: 0.9rem;
+    font-size: 0.76rem;
   }
 }

@@ -19,13 +19,24 @@
     align-items: flex-start;
     gap: 2rem;
     .header__txt__h1 {
-      font-size: 3rem;
+      z-index: 99;
+      font-weight: 900;
+      font-size: 2.8rem;
       line-height: 1.8em;
-      color: txt-color(heading);
+      color: txt-color(accent);
+      .header__txt__h1__span {
+        position: absolute;
+        left: 436px;
+        top: 125px;
+        color: txt-color(dark);
+        font-weight: 300;
+        font-size: 1.1rem;
+      }
     }
     .header__text__p {
       font-size: 1.1rem;
       line-height: 1.5em;
+      color: txt-color(heading);
     }
     .header__text__a {
       text-decoration: none;
@@ -49,7 +60,19 @@
     }
     .header__txt {
       .header__txt__h1 {
+        font-size: 2.3rem;
         text-align: center;
+        line-height: 1.3em;
+        margin-bottom: 10px;
+        .header__txt__h1__span {
+          position: absolute;
+          left: 136px;
+          top: 400px;
+        }
+      }
+      .header__text__p {
+        font-size: 1rem;
+        line-height: 1.5em;
       }
     }
   }

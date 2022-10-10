@@ -9,10 +9,10 @@
   gap: 20px;
   padding: 10px;
   margin: 50px 0;
-  border-left: 3px solid #2b3031;
+  border-left: 2px solid #2b3031;
   .diploma__hl {
     height: 2px;
-    width: 100%;
+    width: 105%;
     background-color: #2b3031;
     transform: translate(-20px);
   }
@@ -23,6 +23,7 @@
     color: txt-color(heading);
   }
   .diploma__date {
+    color: txt-color(accent);
     margin-left: 2.8rem;
     font-size: 0.9rem;
     font-weight: bold;
@@ -36,9 +37,11 @@
 @media (max-width: 768px) {
   .diploma {
     .diploma__h1 {
-      font-size: 1.3rem;
+      font-size: 1.1rem;
     }
-
+    .diploma__date {
+      font-size: 0.8rem;
+    }
     .diploma__p {
       font-size: 0.9rem;
     }

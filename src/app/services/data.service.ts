@@ -31,18 +31,17 @@ export class DataService {
         title: 'Full Stack Developer | Bank of Tunisia',
         date: '10/5/2022 | present',
         briefing:
-          'Developing a network admin branch management system web application for the bank of Tunisia.',
+          'Developing a branch networking management system application.',
       },
       {
         title: 'Full Stack Developer | Bank of Tunisia',
         date: '10/1/2022 | 10/30/2022',
-        briefing:
-          'Developed a WAN monitoring interface for the bank of Tunisia.',
+        briefing: 'Developed a WAN monitoring interface.',
       },
       {
         title: 'Front End Developer | Hortensia Agency',
         date: '6/2/2021 | 8/30/2021',
-        briefing: 'Developed front interfaces using angular.',
+        briefing: 'Developed user interfaces using angular.',
       },
     ];
   }

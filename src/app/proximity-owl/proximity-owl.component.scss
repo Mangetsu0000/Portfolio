@@ -1,0 +1,21 @@
+.owl {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+
+  .owl__eyes {
+    position: absolute;
+    .owl__eyes__eye-left {
+      position: absolute;
+      top: -55px;
+      left: -22px;
+    }
+    .owl__eyes__eye-right {
+      position: absolute;
+      top: -55px;
+      left: 7px;
+    }
+  }
+}

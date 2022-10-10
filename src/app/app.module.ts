@@ -12,6 +12,7 @@ import { LanguagesToolsComponent } from './languages-tools/languages-tools.compo
 import { EducationComponent } from './education/education.component';
 import { DiplomaComponent } from './education/diploma/diploma.component';
 import { InternshipComponent } from './experience/internship/internship.component';
+import { ProximityOwlComponent } from './proximity-owl/proximity-owl.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { InternshipComponent } from './experience/internship/internship.componen
     EducationComponent,
     DiplomaComponent,
     InternshipComponent,
+    ProximityOwlComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
