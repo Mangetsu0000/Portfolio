@@ -17,20 +17,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 2rem;
+    gap: 0.5rem;
     .header__txt__h1 {
       z-index: 99;
       font-weight: 900;
       font-size: 2.8rem;
-      line-height: 1.8em;
+      line-height: 1.1em;
       color: txt-color(accent);
       .header__txt__h1__span {
-        position: absolute;
-        left: 436px;
-        top: 125px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
         color: txt-color(dark);
         font-weight: 300;
         font-size: 1.1rem;
+        text-transform: capitalize;
       }
     }
     .header__text__p {
@@ -64,10 +65,11 @@
         text-align: center;
         line-height: 1.3em;
         margin-bottom: 10px;
+
         .header__txt__h1__span {
-          position: absolute;
-          left: 136px;
-          top: 400px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
         }
       }
       .header__text__p {

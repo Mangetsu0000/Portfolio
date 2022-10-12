@@ -1,0 +1,30 @@
+.owl {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 99;
+}
+
+.owl .owl__eyes {
+  position: absolute;
+}
+
+.owl .owl__eyes .owl__eyes__eye-left {
+  position: absolute;
+  top: -55px;
+  left: -22px;
+}
+
+.owl .owl__eyes .owl__eyes__eye-right {
+  position: absolute;
+  top: -55px;
+  left: 7px;
+}
+/*# sourceMappingURL=proximity-owl.component.css.map */
